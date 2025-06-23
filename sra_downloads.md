@@ -2,7 +2,7 @@
 
 See https://github.com/ncbi/sra-tools for more information
 
-### Example with O. denselamellosa ###
+### Example with *O. denselamellosa* ###
 
 ```
 prefetch --max-size 100g SRR19238449 >& file.log 2>&1
