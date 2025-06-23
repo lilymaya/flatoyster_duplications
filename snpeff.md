@@ -1,5 +1,7 @@
 # SnpEff
 
+SnpEff v. 5.0
+
 See https://pcingola.github.io/SnpEff/snpeff/introduction/ for more information
 
 ### First build a database ###
