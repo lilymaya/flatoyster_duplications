@@ -4,6 +4,8 @@ See https://github.com/OpenGene/fastp, https://github.com/lh3/bwa and https://gi
 
 ### Trim with fastp ###
 
+fastp v. 0.20.0 
+
 Example with sample 6C9M
 ```
 fastp -i 6-C9M_S5ds_R1_001.fastq.gz -I 6-C9M_S5ds_R2_001.fastq.gz -o $DATAOUTPUT/6-C9M_S5_paired_1.fastq.gz  -O $DATAOUTPUT/6-C9M_S5_paired_2.fastq.gz --adapter_fasta $ADAPTERFILE --trim_poly_g --average_qual 28 --length_required 50 --thread 28 &> $LOG/fastp_6-9CM_S5.log
@@ -11,6 +13,8 @@ fastp -i 6-C9M_S5ds_R1_001.fastq.gz -I 6-C9M_S5ds_R2_001.fastq.gz -o $DATAOUTPUT
 ```
 
 ### Map to reference genome using BWA-MEM ###
+
+bwa-mem v. 0.7.17 sambamba v. 0.8.0
 
 Make array table
 ```
