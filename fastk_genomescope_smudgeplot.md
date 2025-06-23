@@ -2,6 +2,8 @@
 
 See https://github.com/thegenemyers/FASTK and https://github.com/KamilSJaron/smudgeplot for more information
 
+Smudgeplot v. 0.3.0
+
 ### Example with *O. denselamellosa* ###
 
 FastK with *k*-mer count of 21
