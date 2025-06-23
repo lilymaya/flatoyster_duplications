@@ -2,6 +2,8 @@
 
 See https://github.com/ncbi/sra-tools for more information
 
+sra-tools v. 2.10.1
+
 ### Example with *O. denselamellosa* ###
 
 ```
