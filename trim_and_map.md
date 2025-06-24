@@ -16,16 +16,6 @@ fastp -i 6-C9M_S5ds_R1_001.fastq.gz -I 6-C9M_S5ds_R2_001.fastq.gz -o $DATAOUTPUT
 
 bwa-mem v. 0.7.17 sambamba v. 0.8.0
 
-Make array table
-```
-cd $DATAINPUT
-basename -s _paired_1.fastq.gz *_paired_1.fastq.gz > $DATADIRECTORY/00_scripts/base_map.txt
-NAME=$(cat $DATADIRECTORY/00_scripts/base_map.txt | awk "NR==${PBS_ARRAY_INDEX}")
-
-#save array table correspondance
-echo -e ${PBS_ARRAY_INDEX}"\t"${NAME} >> $DATADIRECTORY/00_scripts/04a_map_array_table.txt
-
-```
 
 Index genome
 ```
