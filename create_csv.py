@@ -7,7 +7,7 @@ vcf_file_path = "<path-to-directory>/6C9M.recode.vcf"
 # path for the output csv file
 output_file_path = "<output-directory>/6C9M_all.csv"
 
-# read the vcf file with vcf_reader
+# read the vcf file with vcf reader
 vcf_reader = vcf.Reader(open(vcf_file_path, 'r'))
 
 # make the csv file
