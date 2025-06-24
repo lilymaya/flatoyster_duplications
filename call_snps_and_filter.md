@@ -4,6 +4,7 @@ See https://github.com/samtools/bcftools and  for more information
 
 
 First index the genome with samtools
+samtools v. 1.9
 
 ```
 samtools faidx $GENOME
