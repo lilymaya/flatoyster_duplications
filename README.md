@@ -1,5 +1,5 @@
 # flatoyster_duplications
-Code used for project ***k*-mer spectra and allelic coverage analyses reveal pervasive polymorphic duplications in Ostrea edulis** (Colston-Nepali, Lapègue and Bierne) submitted to Peer Community Journal June 2025.
+Code used for project ***k*-mer spectra and allelic coverage analyses reveal pervasive polymorphic duplications in Ostrea edulis** (Colston-Nepali, Lapègue and Bierne) submitted to PCI Genomics for recommendation June 2025.
 
 ### Contents ###
 Download publicly available datasets: [*sra_downloads.md*](https://github.com/lilymaya/flatoyster_duplications/blob/main/sra_downloads.md)
