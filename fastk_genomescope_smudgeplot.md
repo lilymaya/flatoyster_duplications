@@ -25,3 +25,12 @@ Generate Smudgeplot
 ```
 smudgeplot.py all -cov_min 5 -cov_max 50 -o oden_k21_L8_cov5-50 kmerpairs_L8_text.smu
 ```
+
+### Update ###
+
+Updated Smudgeplot (v. 0.5.4) allows for extraction of *k*-mer pair sequences for each smudge. This step was run on the five main individuals. Smudgeplot all was re-run to produce the new .sma files. Example below for individual 4C
+```
+smudgeplot.py all -cov_min 50 -cov_max 110 -o 4C_k21_L35_cov50-110 kmerpairs35.smu
+smudgeplot.py extract FastK_Table 4C_k21_L35_cov50-110 -o extracted_4C -tmp <path-to-temp-directory>
+
+```
