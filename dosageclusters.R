@@ -4,7 +4,7 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 
-#file
+#file (note this is done separately per individual, here is 2C as an example)
 file <- read.csv("2C4M_all.csv", header = TRUE)
 
 #Keep only the Chr entries
@@ -37,6 +37,7 @@ Good <- file_chr %>%
   filter((Total.Alleles > 168.5 & Total.Alleles <= 842.5))
 
 #####     define clusters     #####
+#note that the filter values are customized for each individual
 
 ##### AA
 AA <- file_chr %>%
@@ -96,3 +97,13 @@ BBBA <- file_chr %>%
 BBBB <- file_chr %>%
   filter((Total.Alleles > 589.75 & Total.Alleles <= 758.25) &
            (Alt.Frequency >= 0.9))
+
+#save all the above lists as files, ie.
+#AA
+CHR <- AA$Chromosome
+POS <- AA$Position
+
+df <- data.frame(CHR, POS)
+
+write.table(df, sep = "\t", row.names = FALSE, "2C_AA_snps.txt", quote = FALSE, col.names = FALSE)
+
