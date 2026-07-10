@@ -4,6 +4,8 @@ Following flatoyster_duplications/fastk_genomescope_smudgeplot.md, the extracted
 
 Extract results for each individuals consist of a text file for each smudge (i.e. extracted_2C_1A1B.txt, extracted_2C_2A1B.txt, extracted_2C_3A1B.txt, extracted_2C_2A2B.txt)
 
+(Please note that the following custom scripts were created by Nicolas Bierne)
+
 ### Create comparison table ###
 
 First, all extracted files for all five individuals are placed into a folder (/home/hetmers). Then the following python script was run to create a comparison table:
